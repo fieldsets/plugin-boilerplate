@@ -1,0 +1,7 @@
+{
+    "version": "0.0",
+    "schemas":[],
+    "plugins":[],
+    "packages":[],
+    "containers": ["fieldsets-local"]
+}

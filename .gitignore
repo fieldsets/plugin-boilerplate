@@ -1,0 +1,9 @@
+config.json
+nohup.out
+
+.env
+data/*
+!data
+!data/README.md
+!data/sample-data/*
+!data/sample-data

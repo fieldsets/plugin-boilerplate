@@ -1,0 +1,11 @@
+{
+    "name": "Fieldsets Plugin Boilerplaye",
+    "token": "plugin-boilerplate",
+    "url": "https://github.com/fieldsets/plugin-boilerplate",
+    "version": "1.0.0",
+    "license": "AGPL-3.0",
+    "schema": "fieldsets",
+    "db": "fieldsets",
+    "priority": "10",
+    "enabled": false
+}
