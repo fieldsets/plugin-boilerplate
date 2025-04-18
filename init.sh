@@ -12,16 +12,7 @@ Write-Output "$($plugin_path)"
 
 $plugin = Get-Content -Raw -Path "$($plugin_path)/plugin.json" | ConvertFrom-Json -AsHashtable
 
-$plugin_schema = 'fieldsets'
-$plugin_db = 'fieldsets'
 $plugin_token = $null
-if ($plugin.ContainsKey('schema') -and ($null -ne $plugin['schema'])) {
-    $plugin_schema = $plugin['schema']
-}
-if ($plugin.ContainsKey('db') -and ($null -ne $plugin['db'])) {
-    $plugin_db = $plugin['db']
-}
-
 if ($plugin.ContainsKey('token') -and ($null -ne $plugin['token'])) {
     $plugin_token = $plugin['token']
 }
